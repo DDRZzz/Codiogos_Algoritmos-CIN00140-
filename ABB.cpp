@@ -128,15 +128,3 @@ class Tree{
             cout << Cursor->Valor << endl;
         }
     }
-
-int main(){
-    Tree Arvore;
-    string entrada;
-    int nmr;
-
-    while(cin >> entrada){
-        nmr = stoi(entrada);
-        Arvore.Insert(nmr);
-    }  
-    Arvore.PosOrdem(Arvore.Raiz);
-}
